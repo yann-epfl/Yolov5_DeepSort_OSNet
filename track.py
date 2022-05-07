@@ -219,6 +219,7 @@ def detect(opt):
             else:
                 deepsort_list[i].increment_ages()
                 LOGGER.info('No detections')
+                LOGGER.info('Ta maman en slip')
 
             # Stream results
             im0 = annotator.result()
